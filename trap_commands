@@ -1,0 +1,2 @@
+echo "trap 'echo "$USER":"$BASH_COMMAND" >>/var/log/auth.log' DEBUG" >> /etc/profile
+source /etc/profile
